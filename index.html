@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>xss test</title>
+  <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+  <script type="text/javascript">
+    function renderData(data) {
+      $('#img').attr('src', data);
+    }
+	  $.ajax({type: 'GET', url: '/api/getdata', dataType: 'text', success: renderData});
+  </script>
+
+</body>
+</html>
