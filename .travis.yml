@@ -1,11 +1,12 @@
 language: javascript
 
 env:
+  COVERITY_SCAN_TOKEN: ZYK8hYOzsZG85wCJp8oXtw
   global:
     # COVERITY_SCAN_TOKEN
     # ** specific to your project **
     - secure: ZYK8hYOzsZG85wCJp8oXtw
-    #- coverity_scan_token: ZYK8hYOzsZG85wCJp8oXtw
+    - COVERITY_SCAN_TOKEN: ZYK8hYOzsZG85wCJp8oXtw
 
 addons:
   coverity_scan:
