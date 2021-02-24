@@ -7,7 +7,7 @@ env:
     # - secure: pQFWGv7pM3LLfGcWpCpNcQ
     - COVERITY_SCAN_TOKEN: pQFWGv7pM3LLfGcWpCpNcQ
 
-install: skip
+script: echo ok
 
 addons:
   coverity_scan:
