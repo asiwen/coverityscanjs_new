@@ -1,11 +1,10 @@
 language: javascript
 
 env:
-  COVERITY_SCAN_TOKEN: ZYK8hYOzsZG85wCJp8oXtw
   global:
     # COVERITY_SCAN_TOKEN
     # ** specific to your project **
-    - secure: ZYK8hYOzsZG85wCJp8oXtw
+    # - secure: ZYK8hYOzsZG85wCJp8oXtw
     - COVERITY_SCAN_TOKEN: ZYK8hYOzsZG85wCJp8oXtw
 
 addons:
@@ -14,9 +13,9 @@ addons:
     # GitHub project metadata
     # ** specific to your project **
     project:
-      name: asiwen/coverityscanjs_new
+      name: asiwen%2Fcoverityscanjs_new
       version: 1.0
-      description: coverityscanjs
+      description: coverityscanjs_new
 
     # Where email notification of build analysis results will be sent
     notification_email: scan_notifications@example.com
