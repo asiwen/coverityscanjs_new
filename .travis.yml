@@ -5,7 +5,7 @@ env:
     # COVERITY_SCAN_TOKEN
     # ** specific to your project **
     # - secure: ZYK8hYOzsZG85wCJp8oXtw
-    - COVERITY_SCAN_TOKEN: ZYK8hYOzsZG85wCJp8oXtw
+    - COVERITY_SCAN_TOKEN: pQFWGv7pM3LLfGcWpCpNcQ
 
 addons:
   coverity_scan:
@@ -13,7 +13,7 @@ addons:
     # GitHub project metadata
     # ** specific to your project **
     project:
-      name: asiwen%2Fcoverityscanjs_new
+      name: asiwen/coverityscanjs_new
       version: 1.0
       description: coverityscanjs_new
 
